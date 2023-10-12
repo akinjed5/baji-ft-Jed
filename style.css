@@ -1,0 +1,261 @@
+body {
+  background-color: #f3f2f7;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Barlow", sans-serif;
+}
+#sidebar {
+  width: 17vw;
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+}
+#logo {
+  width: 100%;
+}
+#sidebar-itemgroup {
+  list-style: none;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  padding-left: 15%;
+}
+#sidebar-itemgroup li {
+  height: 7%;
+  display: flex;
+  align-items: center;
+}
+#sidebar-itemgroup li img,
+#sidebar-itemgroup li p {
+  display: inline-block;
+  font-size: 1rem;
+}
+#sidebar-itemgroup li img {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 2rem;
+}
+#page1 {
+  width: 80vw;
+  margin-left: 18vw;
+  overflow: auto;
+  position: relative;
+}
+#navbar {
+  background-color: #fff;
+  margin-top: 1rem;
+  height: 5rem;
+  border-radius: 1rem;
+  display: flex;
+}
+#searchbar {
+  margin: 1rem;
+  width: 40%;
+  display: flex;
+  border: 0.3rem solid #ebebeb;
+  align-items: center;
+}
+#searchbar input {
+  height: 100%;
+  padding: 0;
+  border: none;
+  width: 90%;
+}
+#searchbar input[type="text"] {
+  margin-left: 1rem;
+}
+#searchbar img {
+  height: 80%;
+}
+#icon-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  margin-right: 10%;
+}
+#icon-group img {
+  height: 30%;
+}
+#msg-icon,
+#notif-icon {
+  background-color: #2d9cdb26;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#gift-icon,
+#setting-icon {
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#acc-permissions,
+#acc-details {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+#acc-permissions img {
+  margin-right: 0.5rem;
+  background-color: #2d9cdb26;
+  padding: 1rem;
+  height: 30%;
+  border-radius: 1rem;
+}
+#acc-details p {
+  margin-right: 1rem;
+}
+#topcards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.card {
+  width: 23%;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.card div {
+  display: flex;
+}
+.firstline {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.firstline img {
+  background-color: #2d9cdb26;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.firstline p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+.secondline {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.secondline span {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.redtext {
+  color: #ff0000;
+}
+.greentext {
+  color: #00b074;
+}
+.arrow {
+  text-align: end;
+  margin-right: 3rem;
+  color: #00b074;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.left-container {
+  width: 48.4%;
+  display: inline-grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1rem;
+  grid-template-areas:
+    "upper incoming"
+    "lower incoming";
+  margin-top: 1rem;
+  margin-right: 3%;
+}
+.left-container .card {
+  width: 100%;
+}
+.upper {
+  grid-area: upper;
+}
+.lower {
+  grid-area: lower;
+}
+.incoming {
+  grid-area: incoming;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.incoming .firstline {
+  font-size: 1.3rem;
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.incoming .firstline h4 {
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+.icngrp {
+  display: flex;
+  border: #00000073 1px solid;
+  border-radius: 1rem;
+  width: 40%;
+}
+.icngrp img {
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
+.icngrp p {
+  font-size: 1rem;
+}
+.bid-list {
+  padding: 0;
+  margin-left: 2rem;
+}
+.bid-list li {
+  display: flex;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+.bid-list li img {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.incoming .greentext {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+.bid-list li .greentext {
+  margin-left: 2rem;
+  font-weight: 800;
+}
+.main-container {
+  display: flex;
+}
+.right-container {
+  background-color: #fff;
+  display: inline-block;
+  width: 48.4%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.right-container h4 {
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+#right-grid {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 1rem;
+  grid-template-areas:
+    "right-img right-upper"
+    "right-img right-lower";
+}
+.right-img{grid-area: right-img;}
+.right-upper{grid-area: right-upper; display: flex;}
+.right-upper img{height: 4rem; margin-right: 3rem;}
+.right-lower{grid-area: right-lower; display: flex;}
