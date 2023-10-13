@@ -185,8 +185,9 @@ body {
   top: 1rem;
   right: 1rem;
   accent-color: #4cac3e;
-  color: #fff;
-}
+  height: 1.5rem;
+  width: 1.5rem;
+  }
 
 .cardd p b {
   color: black;
@@ -202,6 +203,4 @@ body {
 .cardd .greentext {
   color: #4cac3e;
 }
-input[type="checkbox" i] {
-color: #fff;
-}
+
