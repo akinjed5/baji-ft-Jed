@@ -163,10 +163,45 @@ body {
   margin-top: 1.5rem;
 }
 
-.cardd{ background-color: #fff; font-size: 1.3rem;
-display: flex;
-width:23%;
-flex-direction: column;
-align-items: center;
+.cardd {
+  background-color: #fff;
+  font-size: 1rem;
+  display: flex;
+  width: 23%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: grey;
+  border-radius: 1rem;
+}
+.cardd img {
+  margin-top: 1rem;
+}
+.cardd p {
+  margin: 0.7rem 0;
+}
+.mark {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  accent-color: #4cac3e;
+  color: #fff;
 }
 
+.cardd p b {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.line2 {
+  margin: 0.1rem !important;
+}
+.cardd p img {
+  margin: 0 0.5rem;
+}
+.cardd .greentext {
+  color: #4cac3e;
+}
+input[type="checkbox" i] {
+color: #fff;
+}
